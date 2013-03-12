@@ -4,7 +4,7 @@
 
 Clone this repo, do not fork it.
 
-In 2 hours get as much done as you can.
+In 2 hours turn as many features green as you can.
 
 ## Features
 
