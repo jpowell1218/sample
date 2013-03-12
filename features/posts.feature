@@ -17,5 +17,5 @@ Feature: Blog Homepage
   Scenario: Viewing blog post comments
     Given a blog post with 1 comment
     When I view the blog post
-    Then I shuold see the blog post content
+    Then I should see the blog post content
     And I should see the blog post comments
