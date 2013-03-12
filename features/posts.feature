@@ -14,6 +14,12 @@ Feature: Blog Homepage
     When I go to the second page
     Then I should see 4 blog posts
 
+  Scenario: Commenting on a blog post
+    Given a blog post
+    When I view the blog post
+    And I should be able to comment on the blog
+    Then I should see the blog post comments
+
   Scenario: Viewing blog post comments
     Given a blog post with 1 comment
     When I view the blog post
